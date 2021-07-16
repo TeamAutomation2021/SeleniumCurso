@@ -6,7 +6,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Config
 {
-
     public static String URL_QA = "http://automationpractice.com/index.php";
     public static String URL_DEV = "http://automationpractice.com/index.php";
     public static String user = "test.0@test.com";

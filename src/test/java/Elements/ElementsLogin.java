@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 public class ElementsLogin
 {
     //ELEMENTO BOTON SIGNIN
-    public By byButtonSignin = By.xpath("//a[@class='login']");
-    public WebElement ButtonSignin (WebDriver driver)
+     public By byButtonSignin = By.xpath("//a[@class='login']");
+     public WebElement ButtonSignin (WebDriver driver)
     {
         WebElement buttonSignin = driver.findElement(byButtonSignin);
         return buttonSignin;
@@ -21,6 +21,8 @@ public class ElementsLogin
         WebElement inputUser = driver.findElement(byInputUser);
         return inputUser;
     }
+
+
 
 
 
